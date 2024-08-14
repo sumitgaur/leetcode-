@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/[13]Roman to Integer.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/doc/content/[13]Roman to Integer.md" />
+              <option name="frontendQuestionId" value="leetcode.com13" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/[13]Roman to Integer.py" />
+              <option name="titleSlug" value="roman-to-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/[70]Climbing Stairs.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/doc/content/[70]Climbing Stairs.md" />
+              <option name="frontendQuestionId" value="leetcode.com70" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/0n/37qtcv313f37qhwtwktrgtlh0000gn/T/leetcode/editor/en/[70]Climbing Stairs.py" />
+              <option name="titleSlug" value="climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

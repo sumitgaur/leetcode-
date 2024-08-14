@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="427e2159-c342-4b08-afbe-27e21ef2117a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mycode/disjoint_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/mycheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1031.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1031.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1048.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1048.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1116.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1116.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1135.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1135.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1166.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1166.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1188.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1188.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/1197.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/1197.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/146.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/146.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/19.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/20.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/211.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/211.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/22.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/228.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/228.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/232.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/239.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/239.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/25.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/253.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/257.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/257.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/26.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/30.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/34.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/346.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/346.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/347.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/347.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/348.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/348.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/355.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/355.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/362.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/362.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/379.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/379.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/394.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/394.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/402.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/402.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/49.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/49.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/53.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/542.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/542.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/59.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/59.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/641.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/641.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/688.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/688.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/70.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/70.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/703.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/703.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/710.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/710.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/715.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/715.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/722.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/722.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/743.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/743.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/745.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/745.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/746.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/746.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/76.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/76.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/799.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/799.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/84.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/84.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/844.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/844.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/876.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/876.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/935.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/973.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/973.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/python3/994.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../codes" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/bisect.py" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/random.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2022.3/python_stubs/-2066100795/_bisect.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IaeWsx09MLZRosEArGgD1HW8EE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sumitgaur/PycharmProjects/leetcode/solutions&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solutions" />
+      <recent name="$PROJECT_DIR$/mycode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in tree.py">
+    <configuration name="1779" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solutions/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solutions/python3/1779.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mycode/array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/mycode/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mycode/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tree.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../codes/mycode/tree.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tree.py" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.array" />
+        <item itemvalue="Python.1779" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="427e2159-c342-4b08-afbe-27e21ef2117a" name="Changes" comment="" />
+      <created>1670424155472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670424155472</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/array.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/array.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/strings.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/53.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/4.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/799.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/542.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/347.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/347.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/347.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/49.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/array.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

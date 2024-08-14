@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2174fa7f-2963-4864-8f7a-744bcb916a75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../codes/mycode/disjoint_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codes/solutions/mycheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1029.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1029.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1031.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1031.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1048.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1048.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1089.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1089.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1116.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1116.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1135.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1135.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1166.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1166.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1188.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1188.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1197.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1197.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1214.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1214.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1229.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1229.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/1259.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/1259.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/146.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/146.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/19.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/20.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/211.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/211.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/212.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/212.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/22.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/228.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/228.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/232.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/239.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/239.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/25.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/253.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/257.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/257.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/26.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/269.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/269.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/295.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/295.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/30.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/301.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/301.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/34.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/346.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/346.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/347.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/347.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/348.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/348.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/355.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/355.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/362.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/362.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/379.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/379.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/381.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/381.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/394.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/394.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/402.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/402.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/48.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/48.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/49.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/49.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/53.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/542.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/542.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/560.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/560.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/59.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/59.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/641.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/641.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/642.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/642.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/670.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/670.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/688.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/688.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/70.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/70.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/703.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/703.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/710.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/710.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/715.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/715.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/722.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/722.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/729.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/729.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/731.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/731.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/743.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/743.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/745.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/745.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/746.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/746.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/76.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/76.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/799.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/799.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/819.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/819.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/821.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/821.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/84.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/84.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/844.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/844.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/876.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/876.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/935.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/952.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/952.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/973.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/973.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/981.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/981.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/../codes/solutions/python3/994.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../codes" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2c7r8idu3XIKNTkkQixuEZLyJrV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.google.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sumitgaur/PycharmProjects/leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../codes/solutions/python3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../codes/mycode/LLD" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.google">
+    <configuration name="48" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/solutions/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/solutions/python3/48.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="560" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/solutions/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/solutions/python3/560.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="google" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/mycode/LLD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/mycode/LLD/google.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/solutions/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/solutions/python3/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../codes/mycode/sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.google" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.sample" />
+        <item itemvalue="Python.560" />
+        <item itemvalue="Python.48" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19072.16" />
+        <option value="bundled-python-sdk-8336bb23522e-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19072.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2174fa7f-2963-4864-8f7a-744bcb916a75" name="Changes" comment="" />
+      <created>1707473321371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707473321371</updated>
+      <workItem from="1723286799276" duration="1061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/tree.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/array.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/alloc_erase_memory_paypal.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/alloc_erase_memory_paypal.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/LLD/SnakeGame.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/obstacle_grid_k_jump.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1229.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1214.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/cab_scheduling_uber.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/LLD/job_scheduler.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1195.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1195.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1188.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/642.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/381.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/381.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/instagram.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/instagram.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/instagram.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1273.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1700.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/room_scheduler.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/largest_component_dsu.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/952.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/multireader_singlewriter.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/2556.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1029.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/731.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/3097.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/212.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/670.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/670.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/269.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1089.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="j==0" language="Python" />
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/1706.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/48.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/mycode/LLD/google.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/560.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/560.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/560.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../codes/solutions/python3/run.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$google.coverage" NAME="google Coverage Results" MODIFIED="1723287005488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../codes/mycode/LLD" />
+  </component>
+</project>

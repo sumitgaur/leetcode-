@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/mycode/disjoint_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/solutions/mycheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1031.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1031.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1048.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1048.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1116.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1116.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1135.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1135.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1166.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1166.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1188.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1188.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1197.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1197.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/146.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/146.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/19.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/20.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/211.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/211.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/22.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/228.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/228.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/232.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/25.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/253.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/257.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/257.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/26.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/30.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/34.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/346.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/346.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/347.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/347.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/348.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/348.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/355.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/355.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/362.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/362.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/379.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/379.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/402.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/402.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/53.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/59.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/59.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/641.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/641.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/688.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/688.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/70.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/70.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/710.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/710.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/715.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/715.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/722.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/722.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/743.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/743.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/745.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/745.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/746.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/746.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/76.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/76.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/84.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/84.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/844.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/844.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/935.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/994.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CtCI-6th-Edition" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SatufIpaKMMwGwFVtcWNup8573" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sumitgaur/PycharmProjects"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="" />
+      <created>1689396747179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689396747179</updated>
+    </task>
+    <servers />
+  </component>
+</project>

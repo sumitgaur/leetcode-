@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSharp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Clojure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Go" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Groovy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Haskell" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaScript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaScript-ES2015" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Julia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Objective-C" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ruby" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Swift" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php" vcs="Git" />
+  </component>
+</project>
