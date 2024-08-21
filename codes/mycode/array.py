@@ -152,15 +152,17 @@ import sys
 #
 
 def isBalanced(s):
-    st = []
-    bal = {')': '(', '}': '{', ']': '['}
+    st, pairs = [], {'(': ')', '{': '}', '[': ']'}
     for c in s:
-        if c in [')', '}', ']']:
-            if st and st.pop() != bal[c]:
-                return "NO"
-        else:
+        if c in pairs:
             st.append(c)
-    return "YES"
+        else:
+            if not st or pairs[st.pop()] != c:
+                return False
+    return st == []
+
+
+print(isBalanced("{()"))
 
 
 def smallerNumbersThanCurrent(nums: List[int]) -> List[int]:
@@ -290,8 +292,25 @@ def solve(A):
     return x + y
 
 
-A = [-2, 1, -4, 5, 3]
-solve(A)
+def serve_customers(arr, initial_amt):
+    max_serve = 0
+    l = 0
+    amt = initial_amt
+    for r in range(len(arr)):
+        amt += arr[r]
+        while l < len(arr) and amt < 0:
+            amt -= arr[l]
+            l += 1
+        max_serve = max(max_serve, r - l + 1)
+    return max_serve
+
+
+# print(serve_customers.__name__)
+# transactions = [-5, 3, -2, 4, -1]
+#
+# print(serve_customers(transactions, 1))
+# A = [-2, 1, -4, 5, 3]
+# solve(A)
 # [0, 1, 1, 0, 0],
 # [0, 1 ,0, 0, 1],
 # [0, 0, 1, 0, 1]
@@ -299,3 +318,108 @@ solve(A)
 # mat = [[0, 1],
 #        [1, 0]]
 # print(max_island(mat))
+
+# An stone array is given.
+# A mouse is on index 0 initially, he starts jumping towards right.
+# Score of a jump is = (len of jump * value of stone mouse is jumping on to)
+# for eg : Score of jump from i to j, score would be = (j-i)*stone[j]
+# Mouse can make any number of jumps, find what is the maximum score that can be achieved.
+#
+# ex
+# 3 5 4 7 2 12 8 10 1
+#
+# ex: 3 to 12 (512) + 12 to 10 (210) + 10 to 1 (1*1) = 81
+def collect_stones(arr):
+    dp = [0] * len(arr)
+    for i in range(1, len(arr)):
+        for j in range(i):
+            dp[i] = max(dp[i], dp[j] + (i - j) * arr[i])
+    return max(dp)
+
+
+# stones = [3, 5, 4, 7, 2, 12, 8, 10, 1]
+# print(collect_stones(stones))
+
+# Assume there is a street of blocks and each block has apartment available to rent out.
+# You're hunting for an apartment in that street and each block has a set of amenities that you want
+# to have easy access to from your new home. Each block has zero or more amenities.
+# How would you pick the block to live in such that the farthest distance to any amenity in your list is minimized?
+def find_closest_apartment(blocks, reqs):
+    block_dist = [{req: sys.maxsize for req in reqs} for _ in range(len(blocks))]
+    for i in range(len(blocks)):
+        for req in reqs:
+            if blocks[i][req]: block_dist[i][req] = 0
+
+    for i in range(1, len(blocks)):
+        for req in reqs:
+            block_dist[i][req] = min(block_dist[i][req], block_dist[i - 1][req] + 1)
+
+    for i in range(len(blocks) - 2, -1, -1):
+        for req in reqs:
+            block_dist[i][req] = min(block_dist[i][req], block_dist[i + 1][req] + 1)
+    best_apartment = None
+    best_apartment_dist = sys.maxsize
+    for i in range(len(blocks)):
+        if max(block_dist[i].values()) < best_apartment_dist:
+            best_apartment_dist = max(block_dist[i].values())
+            best_apartment = i
+    return best_apartment
+
+
+# blocks = [{
+#     "gym": False,
+#     "school": True,
+#     "store": False
+# }, {
+#     "gym": True,
+#     "school": False,
+#     "store": False
+# }, {
+#     "gym": True,
+#     "school": True,
+#     "store": False
+# }, {
+#     "gym": False,
+#     "school": True,
+#     "store": False
+# }, {
+#     "gym": False,
+#     "school": True,
+#     "store": True
+# }]
+#
+# reqs = ["gym", "school"]
+# print(find_closest_apartment(blocks, reqs))
+
+
+# You are given 2 arrays representing integer locations of stores and houses
+# (each location in this problem is one-dementional). For each house, find the store closest to it.
+# Return an integer array result where result[i] should denote the
+# location of the store closest to the i-th house. If many stores are equidistant
+# from a particular house, choose the store with the smallest numerical location.
+# Note that there may be multiple stores and houses at the same location.
+# Input: houses = [5, 10, 17], stores = [1, 5, 20, 11, 16]
+# Output: [5, 11, 16]
+
+def closest_stores(houses, stores):
+    normalized_points = houses + list(map(lambda x: -x, stores))
+    normalized_points = sorted(normalized_points, key=lambda x: abs(x))
+    dp = [None] * len(normalized_points)
+    prev_store = None
+    for i, point in enumerate(normalized_points):
+        if point > 0:
+            dp[i] = prev_store
+        else:
+            prev_store = abs(point)
+    for i in range(len(normalized_points) - 1, -1, -1):
+        if normalized_points[i] > 0:
+            if abs(normalized_points[i] - dp[i]) > abs(normalized_points[i] - prev_store):
+                dp[i] = prev_store
+        else:
+            prev_store = abs(normalized_points[i])
+    return [p for p in dp if p]
+
+
+houses = [5, 10, 17]
+stores = [1, 5, 20, 11, 16]
+print(closest_stores(houses, stores))

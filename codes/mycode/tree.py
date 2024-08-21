@@ -121,16 +121,36 @@ class CalendarTests(unittest.TestCase):
         )
 
 
-def find_depth(s): # from preorder
+def find_depth(s):  # from preorder
     def do(s):
         if s[0] == 'l': return 0
-        s.pop(0);ld = do(s)
-        s.pop(0);rd = do(s)
+        s.pop(0);
+        ld = do(s)
+        s.pop(0);
+        rd = do(s)
         return max(ld, rd) + 1
+
     return do(list(s))
 
 
 # find_depth("nlnnlll")
+
+# You are given a tree-shaped undirected graph consisting of n nodes labeled 1...n and n-1 edges. The i-th edge connects nodes edges[i][0] and edges[i][1] together.
+# For a node x in the tree, let d(x) be the distance (the number of edges) from x to its farthest node. Find the min value of d(x) for the given tree.
+# The tree has the following properties:
+#
+# It is connected.
+# It has no cycles.
+# For any pair of distinct nodes x and y in the tree, there's exactly 1 path connecting x and y.
+
+def diameter(edges):
+    graph = defaultdict(list)
+    for u, v in edges:
+        graph[u].append(v)
+        graph[v].append(u)
+
+    leaves = [u for u, v in graph.items() if len(v) == 1]
+
 
 
 def main():

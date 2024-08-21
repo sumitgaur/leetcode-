@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/CSharp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Clojure" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Go" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Groovy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Haskell" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/JavaScript" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/JavaScript-ES2015" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Julia" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Kotlin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Objective-C" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Python" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Ruby" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/Swift" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/c" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/cpp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CtCI-6th-Edition/php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LeetCode-Solutions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/leetcode" vcs="Git" />
   </component>

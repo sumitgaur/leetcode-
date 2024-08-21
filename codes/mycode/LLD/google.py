@@ -27,11 +27,14 @@
 # (i, j - 1))}
 #
 # O(2 ^ n)
+import copy
 import math
+import sys
 import time
-from collections import deque, OrderedDict
+from collections import deque, OrderedDict, defaultdict, Counter
 
-from sortedcontainers import SortedList
+
+# from sortedcontainers import SortedList
 
 
 def find_min_window(arr, n):
@@ -51,28 +54,38 @@ def find_min_window(arr, n):
     return ans
 
 
-# arr = [1, 2, 3, 5, 95, 97, 100]
-#
-# n = 0.9
-# print(find_min_window(arr, n))
+def min_window(arr, n):
+    numbers_count = math.ceil((arr[-1] - arr[0] + 1) * n / 100)
+    i = 0
+    j = 1
+    min_len = len(arr)
+    while j < len(arr):
+        if arr[j] - arr[i] + 1 < numbers_count:
+            j += 1
+        else:
+            min_len = min(min_len, j - i + 1)
+            i += 1
+    return min_len
+
+
+arr = [1, 2, 3, 5, 95, 97, 100]
+
+n = 90
+print(min_window(arr, n))
 
 
 # O(n) time
 # space O(1)
 #
 #
-# P1 - red, striped, short
-# sleeve
-# P2 - red, striped, long
-# sleeve
-# P3 - red, striped, short
-# sleeve
-# P4 - blue, striped, short
-# sleeve
-# P5 - blue, long
-# sleeve
+# P1 - red, striped, short sleeve
+# P2 - red, striped, long sleeve
+# P3 - red, striped, short sleeve
+# P4 - blue, striped, short sleeve
+# P5 - blue, long sleeve
 # P6 - blue, striped
 #
+# min number of products to represent each of the attribute
 # red - P3
 # striped - P2
 # short
@@ -112,6 +125,108 @@ def find_min_window(arr, n):
 #
 #
 # Please consider this class:
+def min_products(prod_attr_map):
+    attr_counter = Counter()
+    for p, attrs in prod_attr_map.items():  # O(PXA)
+        for attr in attrs:
+            attr_counter[attr] += 1
+    products = set(prod_attr_map.keys())
+    attributes = len(attr_counter)
+    any_removed = True
+    while any_removed:
+        any_removed = False
+        for try_product in products:
+            attr_counter_copy = copy.deepcopy(attr_counter)
+            for att in prod_attr_map[try_product]:
+                attr_counter_copy[att] -= 1
+                if attr_counter_copy[att] == 0:
+                    attr_counter_copy.pop(att)
+            if len(attr_counter_copy) == attributes:
+                attr_counter = attr_counter_copy
+                products.remove(try_product)
+                any_removed = True
+                break
+    return products
+
+
+def min_product_greedy(prod_attribute_map):
+    def dfs(products, uncovered_attributes):
+        if uncovered_attributes:
+            covered_attributes = max(products.values(), key=len)
+            best_products = [product for product, attr in products.items() \
+                             if len(attr) == len(covered_attributes)]  # best products with same coverage
+            best_same_coverage_products = None
+            min_len_same_coverage_products = sys.maxsize
+            for product in best_products:
+                covered_attributes = products[product]
+                deepcopy = copy.deepcopy(products)
+                deepcopy.pop(product)
+                more_products_to_add = dfs(deepcopy,
+                                           uncovered_attributes - covered_attributes)
+                if min_len_same_coverage_products > len(more_products_to_add) + 1:
+                    best_same_coverage_products = [product] + more_products_to_add
+                    min_len_same_coverage_products = len(best_same_coverage_products)
+            return best_same_coverage_products
+        else:
+            return []
+
+    uncovered_attributes = set()
+    for attr in prod_attribute_map.values():
+        uncovered_attributes |= attr
+
+    return dfs(prod_attribute_map, uncovered_attributes)
+
+
+prod_attr_map = {"P1": {'red', 'striped', 'short sleeve'},
+                 "P2": {"red", "striped", "long sleeve"},
+                 "P3": {"red", "striped", "short sleeve"},
+                 "P4": {"blue", "striped", "short sleeve"},
+                 "P5": {"blue", "long sleeve"},
+                 "P6": {"blue", "striped"}
+                 }
+
+
+def set_cover(products):
+    # Initialize the set of selected products and covered attributes
+    selected_products = []
+    covered_attributes = set()
+    for attr in products.values():
+        covered_attributes |= attr
+    while covered_attributes != attributes:
+        # Find the product that covers the largest number of uncovered attributes
+        best_product = None
+        best_coverage = 0
+        for product, product_attributes in products.items():
+            coverage = len(product_attributes - covered_attributes)
+            if coverage > best_coverage:
+                best_coverage = coverage
+                best_product = product
+            elif coverage == best_coverage:
+                # Tie-breaking: choose the product with the smallest total number of attributes
+                if best_product is None or len(product_attributes) < len(products[best_product]):
+                    best_product = product
+
+        # Add the best product to the selected products and update covered attributes
+        selected_products.append(best_product)
+        covered_attributes.update(products[best_product])
+
+    return selected_products
+
+
+# Example usage
+products = {
+    'A': {'Color', 'Size'},
+    'B': {'Weight'},
+    'C': {'Color', 'Weight', 'Price'},
+    'D': {'Price'}
+}
+attributes = {'Color', 'Size', 'Weight', 'Price'}
+
+# result = set_cover(prod_attr_map)
+# print("Minimum products required:", result)
+
+print(min_products(prod_attr_map))
+print(min_product_greedy(prod_attr_map))
 
 
 class Logger:
@@ -131,10 +246,7 @@ class Logger:
 
 # Provided for you; you do not need to implement
 #
-# “”” You; will; need; to; add; state; to; the; Logger
-#
-#
-# class and fill in Started and Finished so that; Log is called; according; to; certain; requirements.
+# “”” You; will; need; to; add; state; to; the; Logger class and fill in Started and Finished so that; Log is called; according; to; certain; requirements.
 # This class will run on a server that; runs for a long time, handling requests from end users.It will call Started when; a; request;
 # arrives and Finished; when; it is done; processing; that; request.; Many; requests; may; be; pending; at; the; same; time, but;
 # you; may; assume; that; it; will; be; few; enough; to; not consume; a; significant; fraction; of; the; machine’s; resources.;
@@ -154,8 +266,7 @@ class Logger:
 # request2, 12: 02
 # started
 # request3
-# 12: 0
-# 9
+# 12: 09
 # finished
 # request3
 # 12: 10
@@ -229,17 +340,45 @@ class Logger:
         # Provided for you; you do not need to implement
 
 
-logger = Logger()
-logger.Started(1200, 'req1')
-logger.Started(1205, 'req2')
-logger.Finished(1207, 'req2')
-logger.Started(1212, 'req3')
-logger.Finished(1213, 'req1')
-logger.Finished(1215, 'req3')
-logger.Started(1217, 'req4')
-logger.Started(1220, 'req5')
-logger.Finished(1222, 'req5')
-logger.Finished(1225, 'req4')
+class Logger1:
+    req_map = OrderedDict()
+
+    def started(self, req, ts):
+        self.req_map[req] = [ts, None]
+
+    def finished(self, req, ts):
+        self.req_map[req][1] = ts
+        previously_started = filter(lambda sts: sts[1][0] <= self.req_map[req][0], self.req_map.items())
+        if all(ts[1] is not None for req, ts in previously_started):
+            for req, item in copy.deepcopy(self.req_map).items():
+                if item[1]:
+                    self.log(req, *item)
+                    self.req_map.pop(req)
+
+    def log(self, req, sts, fts):
+        print(req, sts, fts)
+
+
+logger1 = Logger1()
+logger1.started("req1", 1200)
+logger1.started("req2", 1201)
+logger1.finished("req2", 1204)
+logger1.started("req3", 1205)
+logger1.finished("req1", 1206)
+logger1.finished("req3", 1208)
+
+
+# logger = Logger()
+# logger.Started(1200, 'req1')
+# logger.Started(1205, 'req2')
+# logger.Finished(1207, 'req2')
+# logger.Started(1212, 'req3')
+# logger.Finished(1213, 'req1')
+# logger.Finished(1215, 'req3')
+# logger.Started(1217, 'req4')
+# logger.Started(1220, 'req5')
+# logger.Finished(1222, 'req5')
+# logger.Finished(1225, 'req4')
 
 
 #
@@ -265,7 +404,9 @@ logger.Finished(1225, 'req4')
 # r3->
 
 #
-# We have a big log file - several gigabytes. Each line contains request/response log - with columns like REQUEST_ID, TIMESTAMP, START/END FLAG. We need to parse file, and print requests ids that exceeded given time threshold. Some of requests contains start log, but has never completed and do not have log with end time.
+# We have a big log file - several gigabytes. Each line contains request/response log - with columns like REQUEST_ID, TIMESTAMP, START/END FLAG.
+# We need to parse file, and print requests ids that exceeded given time threshold.
+# Some of requests contains start log, but has never completed and do not have log with end time.
 #
 # i.e.
 # 1 1 START

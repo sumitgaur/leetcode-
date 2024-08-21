@@ -1,3 +1,4 @@
+import bisect
 from collections import OrderedDict
 
 memo = {}
@@ -56,3 +57,18 @@ def noPrefix(words):
 
 
 noPrefix(["abcd", "bcd", "abcde", "bcde"])
+
+
+# Question:
+# Given a sorted string arr = {"boo", "go","google","hello", "uxys"} and a prefix string = "go".
+# return number of Strings that match with prefix.
+
+def count_strings_with_prefix(arr, prefix):
+    left = bisect.bisect_left(arr, prefix)
+    right = bisect.bisect_right(arr, prefix + '~')
+    return right - left
+
+
+arr = ["boo", "go", "google", "hello", "uxys"]
+prefix = "go"
+print(count_strings_with_prefix(arr, prefix))

@@ -17,3 +17,23 @@ class Solution:
             if len(heap) > rooms:
                 rooms += 1
         return rooms
+
+    def minMeetingRooms1(self, intervals):
+        in_out_time = []
+        for x, y in intervals:
+            in_out_time.append(x)
+            in_out_time.append(-y)
+        in_out_time.sort(key=lambda x: abs(x))
+        rooms_req = 0
+        min_rooms = 0
+        for x in in_out_time:
+            if x >= 0:
+                rooms_req += 1
+            else:
+                rooms_req -= 1
+            min_rooms = max(min_rooms, rooms_req)
+        return min_rooms
+
+
+meetings = [[0, 30], [5, 10], [15, 20]]
+print(Solution().minMeetingRooms1(meetings))

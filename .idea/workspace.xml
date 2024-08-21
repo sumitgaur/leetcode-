@@ -1,73 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/mycode/disjoint_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/solutions/mycheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1031.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1031.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1048.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1048.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1116.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1116.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1135.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1135.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1166.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1166.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1188.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1188.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/1197.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/1197.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/146.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/146.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/19.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/20.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/211.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/211.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/22.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/228.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/228.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/232.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/232.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/238.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/25.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/253.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/257.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/257.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/26.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/26.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/30.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/34.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/346.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/346.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/347.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/347.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/348.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/348.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/355.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/355.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/362.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/362.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/379.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/379.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/402.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/402.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/53.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/59.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/59.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/641.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/641.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/67.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/688.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/688.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/70.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/70.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/710.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/710.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/715.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/715.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/722.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/722.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/743.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/743.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/745.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/745.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/746.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/746.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/76.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/76.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/84.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/84.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/844.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/844.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/935.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/solutions/python3/994.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/music_playlist_shuffler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/google.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/google.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/largest_component_dsu.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/ms2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1245.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1245.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/253.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/310.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/310.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/384.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/384.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/79.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/79.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/904.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/904.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CtCI-6th-Edition" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2SatufIpaKMMwGwFVtcWNup8573" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,12 +51,148 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.253.executor": "Run",
+    "Python.57.executor": "Debug",
+    "Python.79.executor": "Run",
+    "Python.array.executor": "Run",
+    "Python.google.executor": "Debug",
+    "Python.music_playlist_shuffler.executor": "Run",
+    "Python.priorityQ.executor": "Run",
+    "Python.strings.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/sumitgaur/PycharmProjects"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.array">
+    <configuration name="57" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/57.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="google" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode/LLD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/LLD/google.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="music_playlist_shuffler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/music_playlist_shuffler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.array" />
+        <item itemvalue="Python.music_playlist_shuffler" />
+        <item itemvalue="Python.strings" />
+        <item itemvalue="Python.google" />
+        <item itemvalue="Python.57" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-8336bb23522e-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19072.16" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,5 +203,72 @@
       <updated>1689396747179</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/253.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/79.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/57.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/57.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
+          <line>350</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
+          <line>424</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
+          <line>419</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

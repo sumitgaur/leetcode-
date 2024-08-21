@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def findMinHeightTrees(self, n, edges):
         if n == 1: return [0]
@@ -12,7 +15,13 @@ class Solution:
             for i in leaves:
                 j = adj[i].pop()
                 adj[j].remove(i)
-                if len(adj[j]) == 1: 
+                if len(adj[j]) == 1:
                     newleaves.append(j)
             leaves = newleaves
-        return leaves 
+        return leaves
+
+    def findMHTs(self, n, edges):
+        adj = defaultdict(list)
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)

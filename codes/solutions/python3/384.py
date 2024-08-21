@@ -1,3 +1,6 @@
+import random
+
+
 class Solution:
 
     def __init__(self, nums: List[int]):
@@ -16,6 +19,7 @@ class Solution:
         Returns a random shuffling of the array.
         """
         random.shuffle(self.arr)
+        random.randint
         return self.arr
 
 
