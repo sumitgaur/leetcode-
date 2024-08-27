@@ -420,6 +420,91 @@ def closest_stores(houses, stores):
     return [p for p in dp if p]
 
 
-houses = [5, 10, 17]
-stores = [1, 5, 20, 11, 16]
-print(closest_stores(houses, stores))
+#
+# houses = [5, 10, 17]
+# stores = [1, 5, 20, 11, 16]
+# print(closest_stores(houses, stores))
+
+
+# count rectangles || to x and y axis
+def count_rectangles(points):
+    points_set = set((x, y) for x, y in points)
+    count = 0
+    for i in range(len(points)):
+        for j in range(i + 1, len(points)):
+            x1, y1 = points[i]
+            x2, y2 = points[j]
+            if x1 != x2 and y1 != y2:
+                if (x1, y2) in points_set and (x2, y1) in points_set:
+                    count += 1
+    return count // 2
+
+
+# points = [(1, 1), (1, 3), (3, 1), (3, 3), (2, 2)]
+# print(count_rectangles(points))
+
+# Problem: Write a function to determine if it's possible to make a single vertical cut through a rectangular cake with non-overlapping toppings such that:
+#
+# The cut does not intersect or destroy any of the toppings.
+# After the cut, both resulting pieces of the cake each contain at least one topping.
+#
+# List of toppings with their positions [topping (start_x, end_x, start_y, end_y) ]
+# Output:
+# True/False
+# Example:
+# Input :
+# a (0,6,0, 1); b (7,8,0,4); c(0, 1,2,4) ;
+def cake_cut_vertical(toppings):
+    x_ranges = [(x, y) for x, y, _, _ in toppings]
+    x_ranges.sort(key=lambda x: (x[0], x[1]))
+    prev_end = x_ranges[0][1]
+    for x1, x2 in x_ranges[1:]:
+        if x1 > prev_end:
+            return prev_end
+        prev_end = max(prev_end, x2)
+    return False
+
+
+# toppings = [(0, 6, 0, 1), (7, 8, 0, 4), (0, 1, 2, 4)]
+# print(cake_cut_vertical(toppings))
+
+# Given on-call rotation schedule for multiple people by: their name, start time and end time of the rotation:
+#
+# Abby 1 10
+# Ben 5 7
+# Carla 6 12
+# David 15 17
+#
+# Your goal is to return rotation table without overlapping periods representing who is on call during that time. Return "Start time", "End time" and list of on-call people:
+#
+# 1 5 Abby
+# 5 6 Abby, Ben
+# 6 7 Abby, Ben, Carla
+# 7 10 Abby, Carla
+# 10 12 Carla
+# 15 17 David
+
+
+def on_call(logs):
+    from sortedcontainers import SortedDict
+    line = SortedDict()
+    for name, s, e in logs:
+        line[s] = name
+        line[e] = name
+    line = list(line.items())
+    visited = {line[0][1]}
+    res = []
+    st = line[0][0]
+    for time, name in line[1:]:
+        if visited:
+            res.append([st, time, list(visited)])
+        if name in visited:
+            visited.remove(name)
+        else:
+            visited.add(name)
+        st = time
+    return res
+
+
+logs = [['Abby', 1, 10], ['Ben', 5, 7], ['Carla', 6, 12], ['David', 15, 17]]
+print(on_call(logs))

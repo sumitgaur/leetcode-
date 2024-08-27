@@ -17,7 +17,7 @@ def palindromeIndex(s):
     def check_pal(s, i, j):
         while i < j and s[i] == s[j]:
             i, j = i + 1, j - 1
-        return i >= j , i, j
+        return i >= j, i, j
 
     i, j = 0, len(s) - 1
     b, i, j = check_pal(s, i, j)
@@ -28,5 +28,10 @@ def palindromeIndex(s):
     if b: return j
 
 
-print(palindromeIndex('abba'))
+# print(palindromeIndex('abba'))
 
+def front_back(str):
+    l = list(str)
+    l[0], l[-1] = l[-1], l[0]
+    return ''.join(l)
+print(front_back(''))

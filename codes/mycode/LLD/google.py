@@ -455,3 +455,48 @@ class LogChecker:
     def parse_log(self):
         with open(self.log_file) as f:
             self.check_timeout(f.readline())
+
+
+'''
+We have a compression algorithm. The "compressed" format consists of an array of bytes. They can either be "literal" bytes, which are copied as-is, or form a "match".
+A match consists of three parts each of which are only one byte long:
+ - a magic tag (fixed at 0xFE)
+ - a length
+ - a zero indexed offset from this position in the uncompressed string.
+
+
+Examples:
+
+    Decompressed: ABRA KEDABRA
+    Compressed: ABRA KED[0xFE 4 7]
+
+    Decompressed: ABRA KEDABRA DABRA
+    Compress: ABRA KED[0xFE 4 7] [0xFE 5 5]
+
+We are working with single byte ASCII encoded characters.
+
+Write the decompression method.
+
+'''
+
+
+def decompress(compressed):
+    decompressed = []
+    i = 0
+    while i < len(compressed):
+        if compressed[i] == 0xFE:
+            length = compressed[i + 1]
+            offset = compressed[i + 2]
+            start = len(decompressed) - offset
+            for j in range(length):
+                decompressed.append(decompressed[start + j])
+            i += 3
+        else:
+            decompressed.append(compressed[i])
+            i += 1
+    return ''.join(map(chr, decompressed))
+
+
+# Example usage:
+compressed_data = [ord('A'), ord('B'), ord('R'), ord('A'), ord(' '), ord('K'), ord('E'), ord('D'), 0xFE, 4, 7]
+print(decompress(compressed_data))  # Output: ABRA KEDABRA

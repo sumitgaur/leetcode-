@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/mycode/music_playlist_shuffler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LeaderBoard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/bishop_knight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/circular_queu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/custom_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/quickselect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1854.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/google.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/google.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/mycode/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/largest_component_dsu.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/ms2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/mycode/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1245.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1245.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/253.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/253.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/310.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/310.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/384.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/384.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/57.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/79.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/79.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/904.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/904.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/mycheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/mycheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/109.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/109.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/261.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/261.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/286.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/286.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/323.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/62.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/62.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/622.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/622.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.253.executor": "Run",
-    "Python.57.executor": "Debug",
-    "Python.79.executor": "Run",
-    "Python.array.executor": "Run",
-    "Python.google.executor": "Debug",
-    "Python.music_playlist_shuffler.executor": "Run",
-    "Python.priorityQ.executor": "Run",
-    "Python.strings.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/sumitgaur/PycharmProjects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.109.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.1854.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2316.executor&quot;: &quot;Run&quot;,
+    &quot;Python.253.executor&quot;: &quot;Run&quot;,
+    &quot;Python.323.executor&quot;: &quot;Run&quot;,
+    &quot;Python.57.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.79.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LeaderBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.google.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.music_playlist_shuffler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mycheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.priorityQ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sumitgaur/PycharmProjects&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.array">
-    <configuration name="57" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.mycheck">
+    <configuration name="109" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/57.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/109.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2316" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/2316.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="google" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="323" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode/LLD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/LLD/google.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/323.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="music_playlist_shuffler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/music_playlist_shuffler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mycheck" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/mycheck.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.array" />
-        <item itemvalue="Python.music_playlist_shuffler" />
-        <item itemvalue="Python.strings" />
-        <item itemvalue="Python.google" />
-        <item itemvalue="Python.57" />
+        <item itemvalue="Python.mycheck" />
+        <item itemvalue="Python.109" />
+        <item itemvalue="Python.323" />
+        <item itemvalue="Python.check" />
+        <item itemvalue="Python.2316" />
       </list>
     </recent_temporary>
   </component>
@@ -260,13 +269,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
-          <line>424</line>
+          <line>425</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
           <line>419</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
+          <line>460</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/1854.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/1854.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/array.py</url>
+          <line>497</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/strings.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/323.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/mycheck.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
