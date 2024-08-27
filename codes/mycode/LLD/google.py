@@ -489,7 +489,7 @@ def decompress(compressed):
             offset = compressed[i + 2]
             start = len(decompressed) - offset
             for j in range(length):
-                decompressed.append(decompressed[start + j])
+                decompressed.append(decompressed[start + j - 1])
             i += 3
         else:
             decompressed.append(compressed[i])
@@ -498,5 +498,7 @@ def decompress(compressed):
 
 
 # Example usage:
-compressed_data = [ord('A'), ord('B'), ord('R'), ord('A'), ord(' '), ord('K'), ord('E'), ord('D'), 0xFE, 4, 7]
+compressed_data = [ord('A'), ord('B'), ord('R'), ord('A'), ord(' '), ord('K'), ord('E'), ord('D'), ord(chr(0xFE)), 0xFE,
+                   4, 7, ord(' '),
+                   0xFE, 5, 5]
 print(decompress(compressed_data))  # Output: ABRA KEDABRA
