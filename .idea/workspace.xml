@@ -5,25 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LeaderBoard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/bishop_knight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/circular_queu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/custom_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/quickselect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1854.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/code_reviews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/temperature.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/url_shortner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/count_min_sketch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/delete_chars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/fetch_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/max_in_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1309.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1372.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1431.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1493.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1804.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1871.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1926.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2284.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2331.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2336.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2352.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2408.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2501.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2895.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2976.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/3629.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/google.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/mycheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/mycheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/109.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/109.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/23.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/261.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/261.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/286.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/286.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/323.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/323.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/62.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/62.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/622.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/622.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/trie.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/trie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python/992.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python/992.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1004.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1071.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1071.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/151.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/151.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/304.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/304.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/328.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/328.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/334.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/334.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/394.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/394.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/399.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/399.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/432.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/432.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/443.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/443.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/450.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/450.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/475.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/475.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/519.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/519.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/643.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/643.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/933.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/933.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/935.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/994.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +73,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sumitgaur&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sumitgaur/leetcode-.git&quot;,
+    &quot;accountId&quot;: &quot;887ba863-47ea-47d1-ba99-76d3ce113336&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,31 +96,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.109.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.1854.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2316.executor&quot;: &quot;Run&quot;,
-    &quot;Python.253.executor&quot;: &quot;Run&quot;,
-    &quot;Python.323.executor&quot;: &quot;Run&quot;,
-    &quot;Python.57.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.79.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LeaderBoard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check.executor&quot;: &quot;Run&quot;,
-    &quot;Python.google.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.music_playlist_shuffler.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mycheck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.priorityQ.executor&quot;: &quot;Run&quot;,
-    &quot;Python.strings.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sumitgaur/PycharmProjects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1004.executor": "Run",
+    "Python.1071.executor": "Run",
+    "Python.109.executor": "Debug",
+    "Python.1309.executor": "Run",
+    "Python.1493.executor": "Run",
+    "Python.151.executor": "Run",
+    "Python.1804.executor": "Run",
+    "Python.1854.executor": "Run",
+    "Python.1871.executor": "Run",
+    "Python.1926.executor": "Run",
+    "Python.1966.executor": "Run",
+    "Python.2083.executor": "Run",
+    "Python.2284.executor": "Run",
+    "Python.2316.executor": "Run",
+    "Python.2331.executor": "Run",
+    "Python.2337.executor": "Debug",
+    "Python.2352.executor": "Run",
+    "Python.238.executor": "Run",
+    "Python.2408.executor": "Run",
+    "Python.2501.executor": "Run",
+    "Python.253.executor": "Run",
+    "Python.2632.executor": "Run",
+    "Python.2895.executor": "Debug",
+    "Python.2976.executor": "Run",
+    "Python.3.executor": "Run",
+    "Python.304.executor": "Run",
+    "Python.323.executor": "Run",
+    "Python.3629.executor": "Run",
+    "Python.399.executor": "Debug",
+    "Python.475.executor": "Run",
+    "Python.519.executor": "Run",
+    "Python.57.executor": "Debug",
+    "Python.67.executor": "Run",
+    "Python.79.executor": "Run",
+    "Python.933.executor": "Run",
+    "Python.992.executor": "Run",
+    "Python.LeaderBoard.executor": "Run",
+    "Python.array.executor": "Run",
+    "Python.check.executor": "Run",
+    "Python.consistent_hash.executor": "Run",
+    "Python.count_min_sketch.executor": "Run",
+    "Python.decorator.executor": "Run",
+    "Python.delete_chars.executor": "Run",
+    "Python.detect_fraud.executor": "Run",
+    "Python.feature_flag_system.executor": "Run",
+    "Python.google.executor": "Run",
+    "Python.langGraph.executor": "Run",
+    "Python.log_analyzer.executor": "Run",
+    "Python.machine_learning.executor": "Run",
+    "Python.max_in_dictionary.executor": "Run",
+    "Python.memory-cache.executor": "Run",
+    "Python.multiLogger.executor": "Run",
+    "Python.music_playlist_shuffler.executor": "Run",
+    "Python.mycheck.executor": "Run",
+    "Python.priorityQ.executor": "Run",
+    "Python.ratelimiting.executor": "Run",
+    "Python.strings.executor": "Run",
+    "Python.temperature.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.trie.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/claude_code"
   }
-}</component>
-  <component name="RunManager" selected="Python.mycheck">
-    <configuration name="109" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.1926">
+    <configuration name="1493" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +178,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/109.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/1493.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2316" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1926" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +200,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/2316.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/1926.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +209,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="323" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2352" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/323.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/2352.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="399" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,11 +240,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/check.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/399.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mycheck" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="933" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/mycheck.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/933.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mycheck" />
-        <item itemvalue="Python.109" />
-        <item itemvalue="Python.323" />
-        <item itemvalue="Python.check" />
-        <item itemvalue="Python.2316" />
+        <item itemvalue="Python.1926" />
+        <item itemvalue="Python.399" />
+        <item itemvalue="Python.933" />
+        <item itemvalue="Python.2352" />
+        <item itemvalue="Python.1493" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +329,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
-          <line>194</line>
+          <line>209</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
-          <line>192</line>
+          <line>207</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -259,7 +349,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
-          <line>350</line>
+          <line>388</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -312,7 +402,134 @@
           <line>34</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2337.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/1966.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythonProject/AI-agents/langGraph.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/multiLogger.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/multiLogger.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/multiLogger.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/memory-cache.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/log_analyzer.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/log_analyzer.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/475.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2501.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2501.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2976.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2976.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/3629.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2284.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/1804.py</url>
+          <line>50</line>
+          <log-expression expression="t = Trie()&#10;    for w in [&quot;abc&quot;, &quot;cab&quot;, &quot;cbd&quot;]:&#10;        t.trie_insert(w)&#10;&#10;    print(json.dumps(t.root, indent=3))" language="Python" />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/151.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/151.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/1493.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2352.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/399.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/399.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.sum_matrix" />
+        <watch expression="self.root['a']['count']" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

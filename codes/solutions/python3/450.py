@@ -1,25 +1,39 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 class Solution:
-    def deleteNode(self, root, key):
-        """
-        :type root: TreeNode
-        :type key: int
-        :rtype: TreeNode
-        """
-        if not root: return
-        if root.val > key: root.left = self.deleteNode(root.left, key)
-        elif root.val < key: root.right = self.deleteNode(root.right, key)
+    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+
+        if not root:
+            return None
+
+        if key < root.val:
+            root.left = self.deleteNode(root.left, key)
+
+        elif key > root.val:
+            root.right = self.deleteNode(root.right, key)
+
         else:
-            if not root.right: return root.left
-            elif not root.left: return root.right
-            tmp, mini = root.right, root.right.val
-            while tmp.left:
-                tmp, mini = tmp.left, tmp.left.val
-            root.val, root.right = mini, self.deleteNode(root.right, mini)
+            # Case 1: no child or one child
+            if not root.left:
+                return root.right
+            if not root.right:
+                return root.left
+
+            # Case 3: two children
+            parent = root
+            successor = root.right
+
+            # find inorder successor (leftmost in right subtree)
+            while successor.left:
+                parent = successor
+                successor = successor.left
+
+            # copy value
+            root.val = successor.val
+
+            # remove successor node
+            if parent == root:
+                # successor is immediate right child
+                parent.right = successor.right
+            else:
+                parent.left = successor.right
+
         return root

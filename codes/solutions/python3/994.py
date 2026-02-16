@@ -32,6 +32,22 @@ class Solution:
             min_time += 1
         return -1 if any(v for r in grid for v in r if v == 1) else min_time
 
+    import deque
+    class Solution:
+        def orangesRotting(self, grid: List[List[int]]) -> int:
+            bfs, t, m, n = [[i, j] for j in range(len(grid[0])) for i in range(len(grid)) if grid[i][j] == 2], 0, len(
+                grid), len(grid[0])
+            while bfs:
+                new = []
+                for i, j in bfs:
+                    for x, y in [(i + 1, j), (i - 1, j), (i, j - 1), (i, j + 1)]:
+                        if 0 <= x < m and 0 <= y < n and grid[x][y] == 1:
+                            grid[x][y] = 2
+                            new.append((x,y))
+                t += bool(bfs)
+                bfs = new
+            return t if all(val != 1 for row in grid for val in row) else -1
+
 
 grid = [[1], [2], [1], [2]]
 print(Solution().orangesRotting2(grid))

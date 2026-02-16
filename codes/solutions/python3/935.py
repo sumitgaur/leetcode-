@@ -7,5 +7,4 @@ class Solution:
                 x1 + x7, x2 + x4, x4 + x6
         return (x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x0) % (10 ** 9 + 7)
 
-    def knightDialer2(self, N):
 

@@ -121,10 +121,9 @@ print(min_window(arr, n))
 # with attributes with single product nodes[]
 # 2.
 #
-#
-#
-#
 # Please consider this class:
+
+
 def min_products(prod_attr_map):
     attr_counter = Counter()
     for p, attrs in prod_attr_map.items():  # O(PXA)
@@ -177,6 +176,20 @@ def min_product_greedy(prod_attribute_map):
     return dfs(prod_attribute_map, uncovered_attributes)
 
 
+from itertools import combinations
+
+
+def min_products_combo(products):
+    items = list(products.items())
+    universe = set().union(*products.values())
+    for r in range(1, len(items) + 1):
+        for combo in combinations(items, r):
+            covered = set().union(*(attr for _, attr in combo))
+            if covered == universe:
+                return [p for p, _ in combo]
+    return None
+
+
 prod_attr_map = {"P1": {'red', 'striped', 'short sleeve'},
                  "P2": {"red", "striped", "long sleeve"},
                  "P3": {"red", "striped", "short sleeve"},
@@ -184,6 +197,8 @@ prod_attr_map = {"P1": {'red', 'striped', 'short sleeve'},
                  "P5": {"blue", "long sleeve"},
                  "P6": {"blue", "striped"}
                  }
+
+print(min_products_combo(prod_attr_map))
 
 
 def set_cover(products):
@@ -212,6 +227,29 @@ def set_cover(products):
 
     return selected_products
 
+
+def min_set(products):
+    min_set_attributes = set()
+    min_products_set = set()
+    for product, attributes in sorted(products.items(), key=lambda item: len(item[1]), reverse=True):
+        if attributes - min_set_attributes:
+            min_products_set.add(product)
+            min_set_attributes.update(attributes)
+    return min_products_set, min_set_attributes
+
+
+products = {
+    "P1": {"red", "striped", "short_sleeve"},
+    "P2": {"red", "striped", "long_sleeve"},
+    "P3": {"red", "striped", "short_sleeve"},
+    "P4": {"blue", "striped", "short_sleeve"},
+    "P5": {"blue", "long_sleeve"},
+    "P6": {"blue", "striped"},
+}
+
+print("minimum set cover")
+print(min_set(products))
+print("minimum set cover")
 
 # Example usage
 products = {

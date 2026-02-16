@@ -11,9 +11,23 @@ class Solution:
         while i < len(a) or c:
             c, x = divmod((i < len(a) and int(a[i]) or 0) + (i < len(b) and int(b[i]) or 0) + c, 2)
             res += str(x)
-            i+=1
+            i += 1
         return "".join(res[::-1])
+
+    def addBinary3(self, a: str, b: str) -> str:
+        def _sum(a, b, carry=0):
+            if a == '' and b == '':
+                return str(carry) if carry else ''
+            if a == '':
+                return _sum(str(carry), b, 0)
+            if b == '':
+                return _sum(a, str(carry), 0)
+            else:
+                s = int(a[-1]) + int(b[-1]) + carry
+                return _sum(a[:-1], b[:-1], s // 2) + str(s % 2)
+
+        return _sum(a, b)
 
 
 s = Solution()
-print(s.addBinary_2("1010", "1011"))
+print(s.addBinary3("1010", "1011"))

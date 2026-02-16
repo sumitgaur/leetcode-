@@ -49,3 +49,6 @@ words = ["abc", "cab", "cbd"]
 # for s in words:
 #     t.insert(s)
 print(fun(words))
+
+
+
