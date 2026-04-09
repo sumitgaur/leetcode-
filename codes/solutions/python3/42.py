@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def trap(self, height):
         res, left, l, r = 0, {}, 0, 0
@@ -23,7 +26,21 @@ class Solution:
 
         return sum([min(left[i], right[i]) - height[i] for i in range(len(height))])
 
+class Solution1:
+    def trap(self, height: List[int]) -> int:
+        max_water = 0
+        i, j = 0, len(height) - 1
+        left = [-1] * len(height)
+        left[0] = height[0]
+        right = [-1] * len(height)
+        left[0] = height[0]
+        right[-1] = height[-1]
+        for i in range(1, len(height)):
+            left[i] = max(left[i - 1], height[i])
+        for i in range(len(height)-2, -1, -1):
+            right[i] = max(right[i + 1], height[i])
+        return sum(min(left[i], right[i]) - height[i] for i in range(len(height)))
 
 heights = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
-s = Solution()
-assert s.trap2(heights) == s.trap(heights)
+s = Solution1()
+assert s.trap(heights) == s.trap(heights)

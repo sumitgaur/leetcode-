@@ -5,63 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/code_reviews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/connection_pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/temperature.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/temperature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/url_shortner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/count_min_sketch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/delete_chars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/fetch_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/max_in_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1309.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1372.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1431.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1493.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1804.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1871.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/1926.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2284.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2331.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2336.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2352.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2408.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2501.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2895.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2976.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/3629.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/2d_nearest_ponts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/HitCounter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/WorkoutSDK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/trending_hashtags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/wallmart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/Surge_Detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/agoda_code_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/analyze_merger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/chunk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/closest_driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/flatten_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/glovo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/longest_consecutive_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/mycode/uber_prep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2462.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/google.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/trie.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/trie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python/992.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python/992.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1004.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/1071.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/1071.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/151.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/151.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/238.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/238.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/304.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/304.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/328.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/328.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/334.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/334.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/394.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/394.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/399.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/399.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/432.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/432.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/443.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/443.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/450.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/450.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/475.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/475.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/519.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/519.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/643.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/643.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/67.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/67.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/933.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/933.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/935.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/935.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/994.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/994.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/memory-cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/memory-cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/ratelimiting.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/ratelimiting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/216.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/216.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/2542.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/2542.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/323.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/460.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/460.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/547.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/547.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/python-trials/leetcode-" value="2SatufIpaKMMwGwFVtcWNup8573" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,76 +76,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1004.executor": "Run",
-    "Python.1071.executor": "Run",
-    "Python.109.executor": "Debug",
-    "Python.1309.executor": "Run",
-    "Python.1493.executor": "Run",
-    "Python.151.executor": "Run",
-    "Python.1804.executor": "Run",
-    "Python.1854.executor": "Run",
-    "Python.1871.executor": "Run",
-    "Python.1926.executor": "Run",
-    "Python.1966.executor": "Run",
-    "Python.2083.executor": "Run",
-    "Python.2284.executor": "Run",
-    "Python.2316.executor": "Run",
-    "Python.2331.executor": "Run",
-    "Python.2337.executor": "Debug",
-    "Python.2352.executor": "Run",
-    "Python.238.executor": "Run",
-    "Python.2408.executor": "Run",
-    "Python.2501.executor": "Run",
-    "Python.253.executor": "Run",
-    "Python.2632.executor": "Run",
-    "Python.2895.executor": "Debug",
-    "Python.2976.executor": "Run",
-    "Python.3.executor": "Run",
-    "Python.304.executor": "Run",
-    "Python.323.executor": "Run",
-    "Python.3629.executor": "Run",
-    "Python.399.executor": "Debug",
-    "Python.475.executor": "Run",
-    "Python.519.executor": "Run",
-    "Python.57.executor": "Debug",
-    "Python.67.executor": "Run",
-    "Python.79.executor": "Run",
-    "Python.933.executor": "Run",
-    "Python.992.executor": "Run",
-    "Python.LeaderBoard.executor": "Run",
-    "Python.array.executor": "Run",
-    "Python.check.executor": "Run",
-    "Python.consistent_hash.executor": "Run",
-    "Python.count_min_sketch.executor": "Run",
-    "Python.decorator.executor": "Run",
-    "Python.delete_chars.executor": "Run",
-    "Python.detect_fraud.executor": "Run",
-    "Python.feature_flag_system.executor": "Run",
-    "Python.google.executor": "Run",
-    "Python.langGraph.executor": "Run",
-    "Python.log_analyzer.executor": "Run",
-    "Python.machine_learning.executor": "Run",
-    "Python.max_in_dictionary.executor": "Run",
-    "Python.memory-cache.executor": "Run",
-    "Python.multiLogger.executor": "Run",
-    "Python.music_playlist_shuffler.executor": "Run",
-    "Python.mycheck.executor": "Run",
-    "Python.priorityQ.executor": "Run",
-    "Python.ratelimiting.executor": "Run",
-    "Python.strings.executor": "Run",
-    "Python.temperature.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.trie.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/claude_code"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1071.executor&quot;: &quot;Run&quot;,
+    &quot;Python.109.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.1309.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1493.executor&quot;: &quot;Run&quot;,
+    &quot;Python.151.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1804.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1854.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1871.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1926.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1966.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2083.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2284.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2316.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2331.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2337.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.2352.executor&quot;: &quot;Run&quot;,
+    &quot;Python.238.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2408.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2462.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2501.executor&quot;: &quot;Run&quot;,
+    &quot;Python.253.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2542.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2632.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2895.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.2976.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2d_nearest_ponts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.304.executor&quot;: &quot;Run&quot;,
+    &quot;Python.323.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3629.executor&quot;: &quot;Run&quot;,
+    &quot;Python.399.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.42.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.475.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.519.executor&quot;: &quot;Run&quot;,
+    &quot;Python.547.executor&quot;: &quot;Run&quot;,
+    &quot;Python.57.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.79.executor&quot;: &quot;Run&quot;,
+    &quot;Python.933.executor&quot;: &quot;Run&quot;,
+    &quot;Python.992.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LeaderBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Surge_Detection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.analyze_merger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chunk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.consistent_hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_min_sketch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_chars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.design-file-system.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.detect_fraud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feature_flag_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flatten_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glovo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.google.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interview_wallmart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.langGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_analyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_consecutive_sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine_learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_in_dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.memory-cache.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiLogger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.music_playlist_shuffler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mycheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.priorityQ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ratelimiting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wallmart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/claude_code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.1926">
-    <configuration name="1493" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.547">
+    <configuration name="547" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/1493.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/547.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1926" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chunk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/1926.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/chunk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2352" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="glovo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/2352.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/glovo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="399" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="longest_consecutive_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,33 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/mycode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/399.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="933" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/solutions/python3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/solutions/python3/933.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/mycode/longest_consecutive_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,11 +252,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1926" />
-        <item itemvalue="Python.399" />
-        <item itemvalue="Python.933" />
-        <item itemvalue="Python.2352" />
-        <item itemvalue="Python.1493" />
+        <item itemvalue="Python.547" />
+        <item itemvalue="Python.chunk" />
+        <item itemvalue="Python.longest_consecutive_sequence" />
+        <item itemvalue="Python.glovo" />
       </list>
     </recent_temporary>
   </component>
@@ -326,16 +300,6 @@
           <url>file://$PROJECT_DIR$/codes/solutions/python3/79.py</url>
           <line>21</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
-          <line>209</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codes/mycode/LLD/google.py</url>
-          <line>207</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/codes/solutions/python3/57.py</url>
@@ -523,13 +487,53 @@
           <line>35</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/2462.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode-Solutions/Python/design-file-system.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/glovo.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/chunk.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/mycode/chunk.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/solutions/python3/547.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="self.sum_matrix" />
-        <watch expression="self.root['a']['count']" />
+        <watch expression="self.root['a']['count']" language="Python" />
+        <watch expression="bfs" />
+        <watch expression="bfs" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

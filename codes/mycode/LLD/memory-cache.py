@@ -65,7 +65,7 @@ class LFUEviction(EvictionPolicy):
         self.mp = {}  # {key:heap_node}
 
     def remove_key(self):
-        heap_node = heapq.heappop()
+        heap_node = heapq.heappop(self.pq)
         self.mp.pop(heap_node.key)
 
     def key_accessed(self, key):

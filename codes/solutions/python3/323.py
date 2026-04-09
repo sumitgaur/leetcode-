@@ -37,6 +37,7 @@ class Solution:
         return sum(1 for u in range(n) if parents[u] == u)
 
 
+
 n = 5
 edges = [[0, 1], [1, 2], [2, 3], [3, 4]]
 

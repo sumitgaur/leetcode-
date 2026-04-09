@@ -84,6 +84,7 @@ class RateLimiter:
         self._strategy = new_strategy
 
 
+
 if __name__ == "__main__":
     limiter = RateLimiter(
         FixedWindowRateLimiter(max_requests=5, window_size_seconds=10)
