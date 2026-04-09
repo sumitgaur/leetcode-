@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/2d_nearest_ponts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/HitCounter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/WorkoutSDK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/rate_limiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/trending_hashtags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/LLD/wallmart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/Surge_Detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/agoda_code_review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/analyze_merger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/chunk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/closest_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/flatten_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/glovo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/longest_consecutive_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/mycode/uber_prep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/solutions/python3/2462.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/memory-cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/memory-cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/mycode/LLD/ratelimiting.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/mycode/LLD/ratelimiting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/216.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/216.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/2542.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/2542.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/323.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/323.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/42.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/460.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/460.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/solutions/python3/547.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/solutions/python3/547.py" afterDir="false" />
-    </list>
+    <list default="true" id="c6bb3a1b-163f-428e-96d4-567320d55e13" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
